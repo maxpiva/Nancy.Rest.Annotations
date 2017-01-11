@@ -13,7 +13,7 @@ namespace Nancy.Rest.Annotations
         public string Route { get; set; }
         public string ResponseContentType { get; set; }
 
-        public Rest(Verbs verb, string route, string contentype=null)
+        public Rest(string route, Verbs verb, string contentype = null)
         {
             Verb = verb;
             Route = route;
