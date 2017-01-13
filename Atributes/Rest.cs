@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Nancy.Rest.Annotations.Enums;
 
-namespace Nancy.Rest.Annotations
+namespace Nancy.Rest.Annotations.Atributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class Rest : Attribute
