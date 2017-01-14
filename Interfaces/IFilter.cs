@@ -4,6 +4,11 @@ namespace Nancy.Rest.Annotations.Interfaces
 {
     public interface IFilter<T>
     {
-        T Filter(int level, IEnumerable<string> tags = null);
+        T FilterWithLevel(int level);
+
+        T FilterWithTags(IEnumerable<string> tags);
+
+        T FilterWithLevelAndTags(int level, IEnumerable<string> tags);
+
     }
 }
