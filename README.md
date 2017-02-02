@@ -2,6 +2,18 @@
 
 For use with [Nancy.Rest.Client](https://github.com/maxpiva/Nancy.Rest.Client) and [Nancy.Rest.Module](https://github.com/maxpiva/Nancy.Rest.Module)
 
+## Installation
+
+* [Nancy.Rest.Annotations](https://github.com/maxpiva/Nancy.Rest.Annotations) to your models project.
+
+Or 
+
+* Add the Nuget package [Nancy.Rest.Annotations](https://www.nuget.org/packages/Nancy.Rest.Annotations/)
+
+## Usage
+
+Annotate your interface and models, for more info visit: [Nancy.Rest.Module](https://github.com/maxpiva/Nancy.Rest.Module)
+
 ## History
 
 **1.4.3-Beta**: Added nugets.
