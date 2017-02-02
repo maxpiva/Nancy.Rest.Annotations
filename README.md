@@ -4,6 +4,7 @@ For use with [Nancy.Rest.Client](https://github.com/maxpiva/Nancy.Rest.Client) a
 
 ## History
 
+**1.4.3-Beta**: Added nugets.
 **1.4.3-Alpha**: First Release
 
 ##WARNING
