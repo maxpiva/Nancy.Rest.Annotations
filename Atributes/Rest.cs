@@ -9,12 +9,14 @@ namespace Nancy.Rest.Annotations.Atributes
         public Verbs Verb { get; set; }
         public string Route { get; set; }
         public string ResponseContentType { get; set; }
+        public int TimeOutSeconds { get; set; }
 
-        public Rest(string route, Verbs verb, string contentype = null)
+        public Rest(string route, Verbs verb, string contentype = null, int timeOutSeconds = 0)
         {
             Verb = verb;
             Route = route;
             ResponseContentType = contentype;
+            TimeOutSeconds = timeOutSeconds;
         }
     }
 }
