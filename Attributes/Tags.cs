@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nancy.Rest.Annotations.Atributes
+namespace Nancy.Rest.Annotations.Attributes
 {
     public class Tags : Attribute
     {

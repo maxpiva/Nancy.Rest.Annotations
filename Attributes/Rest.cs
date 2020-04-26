@@ -1,7 +1,7 @@
 ﻿using System;
 using Nancy.Rest.Annotations.Enums;
 
-namespace Nancy.Rest.Annotations.Atributes
+namespace Nancy.Rest.Annotations.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class Rest : Attribute

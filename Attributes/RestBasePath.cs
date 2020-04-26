@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nancy.Rest.Annotations.Atributes
+namespace Nancy.Rest.Annotations.Attributes
 {
     [AttributeUsage(AttributeTargets.Interface|AttributeTargets.Class)]
     public class RestBasePath : Attribute
