@@ -2,9 +2,21 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFrameworks>netstandard1.1;netstandard2.0;net471</TargetFrameworks>
-    <RuntimeIdentifiers>win;win10-x64;win-x86;linux-x64;linux-x86</RuntimeIdentifiers>
-    <Platforms>x64;x86</Platforms>
+    <RuntimeIdentifiers>win-x64;win10-x64;win-x86;linux-x64;linux-x86</RuntimeIdentifiers>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Nancy.Rest.Annotations</PackageId>
+	<Authors>Máximo Piva</Authors>
+    <Product>Nancy.Rest.Annotations</Product>
+	<Copyright>Copyright (c) 2019 Máximo Piva &amp; Shoko Developers</Copyright>
+    <PackageProjectUrl>https://github.com/maxpiva/Nancy.Rest.Annotations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maxpiva/Nancy.Rest.Annotations</RepositoryUrl>
+	<Description>Annotations library used by Nancy.Rest.Module and Nancy.Rest.Client.</Description>   
+	<RepositoryType>git</RepositoryType>
+    <PackageTags>nancy rest client</PackageTags>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Version>1.4.4.0</Version>
+    <FileVersion>1.4.4.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Runtime" Version="4.3.1" />
